@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutternewsapp/views/Home.dart';
+
 
 void main() {
   runApp(MyApp());
@@ -12,8 +14,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.white,
-        visualDensity: VisualDensity.adaptivePlatformDensity,
+        primaryColor: Colors.white,
       ),
       home: Home(),
     );
