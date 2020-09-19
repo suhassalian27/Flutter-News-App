@@ -30,11 +30,12 @@ class _ArticleViewState extends State<ArticleView> {
         actions: <Widget>[
           Opacity(
             opacity: 0,
-                      child: Container(
+            child: Container(
                 padding: EdgeInsets.symmetric(horizontal: 16),
                 child: Icon(Icons.save)),
           )
         ],
+        centerTitle: true,
         elevation: 0.0,
       ),
       body: Container(
