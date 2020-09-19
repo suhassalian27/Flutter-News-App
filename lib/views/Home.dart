@@ -134,8 +134,9 @@ class CategoryTile extends StatelessWidget {
                 width: 120,
                 height: 60,
                 decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(6),
-                    color: Colors.black26),
+                  borderRadius: BorderRadius.circular(6),
+                  color: Colors.black26,
+                ),
                 child: Text(
                   categoryName,
                   style: TextStyle(
@@ -170,6 +171,15 @@ class BlogTile extends StatelessWidget {
             ));
       },
       child: Container(
+        padding: const EdgeInsets.all(10.0),
+        decoration: new BoxDecoration(
+          color: Colors.white,
+          borderRadius: BorderRadius.circular(6),
+          border: Border.all(
+            color: Colors.grey, 
+            width: 1.0,
+          ),
+        ),
         margin: EdgeInsets.only(bottom: 16),
         child: Column(
           children: <Widget>[
