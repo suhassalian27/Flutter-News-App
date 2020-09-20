@@ -37,6 +37,7 @@ class _HomeState extends State<Home> {
 
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.black,
       appBar: AppBar(
         title: Row(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -175,10 +176,6 @@ class BlogTile extends StatelessWidget {
         decoration: new BoxDecoration(
           color: Colors.white,
           borderRadius: BorderRadius.circular(6),
-          border: Border.all(
-            color: Colors.grey, 
-            width: 1.0,
-          ),
         ),
         margin: EdgeInsets.only(bottom: 16),
         child: Column(

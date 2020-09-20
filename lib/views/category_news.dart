@@ -33,6 +33,7 @@ class _CategoryNewsState extends State<CategoryNews> {
 
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.black,
       appBar: AppBar(
         title: Row(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -44,6 +45,15 @@ class _CategoryNewsState extends State<CategoryNews> {
             )
           ],
         ),
+        actions: <Widget>[
+          Opacity(
+            opacity: 0,
+            child: Container(
+                padding: EdgeInsets.symmetric(horizontal: 16),
+                child: Icon(Icons.save)),
+          )
+        ],
+        centerTitle: true,
         elevation: 0.0,
       ),
       body: _loading
@@ -101,6 +111,11 @@ class BlogTile extends StatelessWidget {
       },
       child: Container(
         margin: EdgeInsets.only(bottom: 16),
+        padding: const EdgeInsets.all(10.0),
+        decoration: new BoxDecoration(
+          color: Colors.white,
+          borderRadius: BorderRadius.circular(6),
+        ),
         child: Column(
           children: <Widget>[
             ClipRRect(
