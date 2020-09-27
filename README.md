@@ -13,7 +13,7 @@ Flutter app created using NewsApi.org
 
 ## Prerequisites
 
--   Text Editor ([VS Code](https://code.visualstudio.com/download) , [Android Studio](https://developer.android.com/studio)
+-   Text Editor ([VS Code](https://code.visualstudio.com/download) , [Android Studio](https://developer.android.com/studio))
 -   Flutter - [install here](https://flutter.dev/docs/get-started/install)
 
 ## Technologies
